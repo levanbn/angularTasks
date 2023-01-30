@@ -16,32 +16,32 @@ enum Status {
 
 export class informationService  {
   firstUser: User = {
-      firstName: "saxeli1",
-      lastName: "gvari1",
-      about: "about1",
+      firstName: "George",
+      lastName: "Bazera",
+      about: "Genius Programmer & Famous Footballer",
       birthDate: {
-          year: 2002,
+          year: 1997,
           month: 12
       },
       status: Status.active,
   }
   secondUser: User = {
-      firstName: "saxeli2",
-      lastName: "gvari2",
-      about: "about2",
+      firstName: "Kote",
+      lastName: "Kirkita",
+      about: "Great Programmer & Just 'გენიალური კაცი' ",
       birthDate: {
-          year: 2003,
+          year: 2000,
           month: 12
       },
       status: Status.inactive,
   }
   thirdUser: User = {
-      firstName: "saxeli3",
-      lastName: "gvari3",
-      about: "about3",
+      firstName: "Levan",
+      lastName: "Begi-Tanjula",
+      about: "Owner of a Difficult Past",
       birthDate: {
-          year: 2004,
-          month: 12
+          year: 1999,
+          month: 7
       },
       status: Status.delete,
   }

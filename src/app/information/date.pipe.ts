@@ -7,7 +7,7 @@ let date =  new Date().getFullYear();
 
 export class datePipe implements PipeTransform {
 
-    transform(value: any) {
-        return value = date - value;
-    }
+  transform(value: any) {
+    return value = Math.round(date - value);
+  }
 }
