@@ -3,10 +3,11 @@ import { informationService } from './information.service';
 
 @Component({
   selector: 'app-first',
-  templateUrl: './first.component.html',
-  styleUrls: ['./first.component.scss'],
+  templateUrl: './information.component.html',
+  styleUrls: ['./information.component.scss'],
 })
-export class FirstComponent implements OnInit {
+
+export class informationComponent implements OnInit {
   get users() {
     return this.informationService.users;
   }
@@ -26,3 +27,5 @@ export class FirstComponent implements OnInit {
     }, 1000);
   }
 }
+export { Component };
+

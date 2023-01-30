@@ -6,10 +6,11 @@ import { HighlightDirective } from './table/table.directive';
 import { informationService } from './information/information.service';
 import { informationComponent } from './information/information.component';
 import { tableService } from './table/table.service';
-import { FirstComponent } from './information/information.component';
+import { Component } from './information/information.component';
 import { datePipe } from './information/date.pipe';
 import { statusColorDirective } from './information/statusColor.directive';
 import { cardColorDirective } from './information/changeColor.directive';
+import { tableComponent } from './table/table.component';
 
 @NgModule({
   declarations: [

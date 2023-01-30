@@ -14,7 +14,7 @@ enum Status {
   inactive = "inactive"
 }
 
-export class firstTaskService {
+export class informationService  {
   firstUser: User = {
       firstName: "saxeli1",
       lastName: "gvari1",
